@@ -90,6 +90,7 @@ const nextConfig: NextConfig = {
     "*.ngrok.io",
     "*.trycloudflare.com",
     "*.loca.lt",
+    "*.angelpaka.com",
     ...(process.env.ALLOWED_DEV_ORIGINS
       ? process.env.ALLOWED_DEV_ORIGINS.split(",")
           .map((origin) => origin.trim())
@@ -162,4 +163,3 @@ const nextConfig: NextConfig = {
 };
 
 export default withNextIntl(nextConfig);
-
